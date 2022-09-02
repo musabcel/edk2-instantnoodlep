@@ -18,7 +18,9 @@ sudo apt install build-essential uuid-dev iasl git nasm gcc-aarch64-linux-gnu ab
 git clone https://github.com/musabcel/edk2-instantnoodlep.git
 cd edk2-instantnoodlep
 7z x edk2.7z.001
-cd sm8250
+cd ..
+chmod -R 755 edk2-instantnoodlep/
+cd edk2-instantnoodlep/sm8250
 ```
 
 2.Build this project
